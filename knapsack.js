@@ -1,3 +1,5 @@
+//0/1 Knapsack Problem
+
 const knapsack = (weights, values, W) => {
   const n = weights.length;
   const dp = Array(n + 1).fill().map(() => Array(W + 1).fill(0));
